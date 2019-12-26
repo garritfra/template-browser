@@ -1,0 +1,20 @@
+{
+  "name": "template-browser",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel index.html --out-dir public",
+    "serve": "hs public"
+  },
+  "dependencies": {
+    "@clio/internals": "0.2.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.0",
+    "parcel": "^1.12.4"
+  }
+}
