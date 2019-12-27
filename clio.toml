@@ -5,8 +5,10 @@ license = "MIT"
 main = "src/main.clio"
 authors = [ "Your Name <you@example.com>" ]
 keywords = ""
-build = "build"
-target="browser"
+
+[build]
+directory = "build"
+target = "browser"
 
 [scripts]
 test = "No tests specified"
