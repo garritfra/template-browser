@@ -1,1 +1,1 @@
-'Hello World' => document.body.innerText
+'Hello World' -> .valueOf => document.body.innerText
